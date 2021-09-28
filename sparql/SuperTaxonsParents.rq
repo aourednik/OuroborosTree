@@ -1,0 +1,51 @@
+# this fetches the missing connections to the main taxons
+SELECT DISTINCT ?taxon ?name ?commonName ?rank ?parent ?parentName ?parentCommonName ?rankparent
+    WHERE {
+        {
+        VALUES ?parent {taxon:2 taxon:2759 taxon:2763 taxon:2157}
+        ?parent up:scientificName ?parentName .
+        VALUES ?rank {up:Kingdom up:Phylum}
+        ?taxon up:rank ?rank .
+        ?taxon rdfs:subClassOf ?parent.
+        ?parent up:rank ?rankparent.
+        ?taxon up:scientificName ?name .
+        OPTIONAL {?taxon up:commonName ?commonName }
+        OPTIONAL {?parent up:commonName ?parentCommonName }
+        FILTER (
+            (?rank = up:Kingdom) ||
+            ?taxon = taxon:201174 ||
+            ?taxon = taxon:2763 ||
+            ?taxon = taxon:1224 ||
+            ?taxon = taxon:28890
+        )} UNION {
+            SELECT DISTINCT ?taxon ?name ?commonName ?rank ?parent ?parentName ?parentCommonName ?rankparent WHERE {
+                VALUES ?taxon {taxon:2 taxon:2157 taxon:10239 taxon:2759}
+                ?taxon up:scientificName ?name .
+                ?taxon up:rank ?rank .
+                VALUES ?parent {taxon:131567}
+                ?parent up:scientificName ?parentCommonName .
+                ?parent up:otherName ?parentName.
+                BIND (0 AS ?rankparent)
+            }
+        } UNION {
+            SELECT DISTINCT ?taxon ?name ?commonName ?rank ?parent ?parentName ?parentCommonName ?rankparent WHERE {
+                VALUES ?taxon {taxon:1294634}
+                ?taxon up:scientificName ?name .
+                ?taxon up:rank ?rank .
+                VALUES ?parent {taxon:7711}
+                ?parent up:scientificName ?parentCommonName .
+                ?parent up:otherName ?parentName.
+                ?parent up:rank ?rankparent.
+            }
+        } UNION {
+            SELECT DISTINCT ?taxon ?name ?commonName ?rank ?parent ?parentName ?parentCommonName ?rankparent WHERE {
+                VALUES ?taxon {taxon:1239}
+                ?taxon up:scientificName ?name .
+                ?taxon up:rank ?rank .
+                VALUES ?parent {taxon:2}
+                ?parent up:scientificName ?parentCommonName .
+                ?parent up:otherName ?parentName.
+                ?parent up:rank ?rankparent.
+            }
+        }
+}

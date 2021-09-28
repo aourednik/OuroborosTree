@@ -1,0 +1,10 @@
+node_modules/
+Offre/
+BACKUP/
+lib/pixi@4/
+git_ignore/
+yarn.lock
+yarn-error.log
+package.json
+ourobase01.csv
+ourobase02.csv

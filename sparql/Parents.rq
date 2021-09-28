@@ -1,0 +1,34 @@
+
+    SELECT DISTINCT ?taxon ?name ?commonName ?rank ?parent ?parentName ?parentCommonName ?rankparent
+    WHERE
+    {
+        VALUES ?taxon {JSVAR:TAXONS}
+        ?taxon up:scientificName ?name .
+        OPTIONAL {?taxon up:commonName ?commonName }
+        ?taxon up:rank ?rank .
+        VALUES (?rank ?ranknum) {
+            ( up:Superkingdom 1 )
+            ( up:Kingdom 2 )
+            ( up:Phylum 3 )
+            ( up:Class 4 )
+            ( up:Order 5 )
+            ( up:Family 6 )
+            ( up:Genus 7 )
+            ( up:Species 8 )
+        }
+        ?taxon rdfs:subClassOf ?parent.
+        ?parent up:rank ?rankparent.
+        ?parent up:scientificName ?parentName .
+        OPTIONAL {?parent up:commonName ?parentCommonName }
+        VALUES (?rankparent ?ranknumparent) {
+            ( up:Superkingdom 1 )
+            ( up:Kingdom 2 )
+            ( up:Phylum 3 )
+            ( up:Class 4 )
+            ( up:Order 5 )
+            ( up:Family 6 )
+            ( up:Genus 7 )
+            ( up:Species 8 )
+        }
+        FILTER(?ranknum - ?ranknumparent = 1)
+    }

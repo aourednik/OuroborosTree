@@ -1,0 +1,186 @@
+taxnum,label,group,vegan,حلال,species_protection,cetogene,insect_disgust
+1681,Bifidobacterium bifidum,8,2,2,2,2,2
+2708,Citrus limon (Lemon),8,2,2,2,2,2
+2769,Chondrus crispus (Carrageen Irish moss),8,2,2,2,2,2
+2786,Porphyra umbilicalis (Purple laver),8,2,2,2,2,2
+2822,Palmaria palmata (Dulse),8,2,2,2,2,2
+3337,Pinus,7,2,2,2,2,2
+3435,Persea americana (Avocado),8,2,2,2,2,2
+3494,Ficus carica (Common fig),8,2,2,2,1,2
+3603,Vitis,7,2,2,2,2,2
+3645,Bertholletia excelsa (Brazil nut),8,2,2,2,2,2
+3654,Citrullus lanatus (Watermelon),8,2,2,2,1,2
+3705,Brassica,7,2,2,2,2,2
+3746,Fragaria,7,2,2,2,1,2
+3750,Malus domestica (Apple),8,2,2,2,1,2
+3755,Prunus dulcis (Almond),8,2,2,2,1,2
+3758,Prunus domestica (Garden plum),8,2,2,2,1,2
+3760,Prunus persica (Peach),8,2,2,2,1,2
+3818,Arachis hypogaea (Peanut),8,2,2,2,2,2
+4039,Daucus carota (Wild carrot),8,2,2,2,2,2
+4072,Capsicum annuum (Capsicum pepper),8,2,2,2,2,2
+4081,Solanum lycopersicum (Tomato),8,2,2,2,2,2
+4111,Solanum melongena (Eggplant),8,2,2,2,2,2
+4113,Solanum tuberosum (Potato),8,2,2,2,0,2
+4136,Lamiaceae,6,2,2,2,2,2
+4498,Avena sativa (Oat),8,2,2,2,0,2
+4530,Oryza sativa (Rice),8,2,2,2,0,2
+4543,Cenchrus americanus (Pearl millet),8,2,2,2,0,2
+4550,Secale cereale (Rye) Seigle,8,2,2,2,0,2
+4557,Sorghum,7,2,2,2,0,2
+4564,Triticum,7,2,2,2,0,2
+4577,Zea mays (Maize),8,2,2,2,0,2
+5193,Morchella,7,2,2,2,2,2
+5320,Pleurotus,7,2,2,2,2,2
+5341,Agaricus bisporus (White button mushroom),8,2,2,2,2,2
+5353,Lentinula edodes (Shiitake mushroom),8,2,2,2,2,2
+6451,Haliotidae (abalones),6,0,0,2,1,2
+6536,Helix pomatia (Roman snail),8,0,0,2,1,2
+7705,Holothuroidea (sea cucumbers),4,0,0,2,2,2
+7962,Cyprinus carpio (Common carp),8,0,2,2,2,2
+8574,Boa constrictor (Boa),8,0,0,2,2,2
+8839,Anas platyrhynchos (Mallard),8,0,2,2,2,2
+8843,Anser anser (Domestic goose),8,0,1,2,2,2
+9031,Gallus gallus (Chicken),8,0,1,2,2,2
+9606,Homo sapiens (Human),8,0,0,0,0,0
+9796,Equus caballus (Horse),8,0,1,2,2,2
+9823,Sus scrofa (Pig),8,0,0,2,2,2
+9870,Rangifer tarandus (Reindeer),8,0,1,2,2,2
+9940,Ovis aries (Sheep),8,0,1,2,2,2
+9974,Manis javanica (Malayan pangolin),8,0,1,2,2,2
+9986,Oryctolagus cuniculus (Rabbit),8,0,1,2,2,2
+13451,Corylus avellana (European hazel),8,2,2,2,2,2
+13894,Cocos nucifera (Coconut palm),8,2,2,2,2,2
+21020,Castanea sativa (Sweet chestnut),8,2,2,2,1,2
+23211,Pyrus communis (Pear),8,2,2,2,1,2
+23216,Rubus (bramble),7,2,2,2,1,2
+27601,Balaena,7,0,1,1,2,2
+29892,Auricularia auricula-judae (Judas ear fungus),8,2,2,2,2,2
+32201,Carya illinoinensis (Pecan),8,2,2,2,2,2
+36066,Cantharellus cibarius (Chanterelle),8,2,2,2,2,2
+36610,Cydonia oblonga (Quince),8,2,2,2,1,2
+38516,Eucheuma serra (Marine red alga),8,2,2,2,2,2
+42229,Prunus avium (Cherry),8,2,2,2,1,2
+51240,Juglans regia (English walnut),8,2,2,2,2,2
+52838,Musa balbisiana (Banana),8,2,2,2,0,2
+55513,Pistacia vera (Pistachio),8,2,2,2,2,2
+57918,Fragaria vesca (Woodland strawberry),8,2,2,2,1,2
+59557,Tuber aestivum (summer truffle),8,2,2,2,2,2
+60698,Macadamia integrifolia (Macadamia nut),8,2,2,2,2,2
+62784,Tettigoniidae (katydids),6,0,0,2,2,0
+134033,Castanea dentata (American chestnut),8,2,2,2,1,2
+154467,Bactris gasipaes (Peach palm tree),8,2,2,2,2,2
+158314,Polyporus umbellatus,8,2,2,2,2,2
+171929,Anacardium occidentale (Cashew),8,2,2,2,2,2
+180763,Vaccinium myrtillus (Bilberry),8,2,2,2,1,2
+234819,Hypsizygus tessulatus,8,2,2,2,2,2
+999306,Anthophila,7,0,0,2,2,0
+2496636,Conus moncuri (Sea snail),8,0,0,2,2,2
+2510777,Agarophyton chilensis (Red alga),8,2,2,2,2,2
+2607531,Octopus sinensis (East Asian common octopus),8,0,0,2,2,2
+2651130,Boletus pseudopinophilus,8,2,2,2,2,2
+2706543,Bos sp. BXL002,8,0,1,2,2,2
+2777923,Bos mutus x Bos grunniens,8,0,1,2,2,2
+3624,Kiwi,8,2,2,2,2,2
+9612,Canis lupus,8,0,0,2,2,2
+9685,cat,8,0,0,2,2,2
+9632,Ursidae,8,0,0,2,2,2
+56266,Hiboux,8,0,0,2,2,2
+1719223,Edible black scorpiom,8,0,0,2,2,0
+7067,Mealworm,8,0,0,2,2,0
+6999,Crickets,8,0,0,2,2,0
+9592,Gorilla,8,0,0,2,2,2
+9598,Chimpanzee,8,0,0,2,2,2
+7935,anguilles,8,0,0,2,2,2
+9102,Dindon,8,0,1,2,2,2
+9925,goat,8,0,1,2,2,2
+9913,Cow,8,0,1,2,2,2
+9915,Zebu,8,0,1,2,2,2
+10141,Cochon d’Inde,8,0,1,2,2,2
+9793,Asio Donkey Âne,8,0,1,0,2,2
+89462,Water buffalo,8,0,1,2,2,2
+9838,Dromadaire,8,0,1,2,2,2
+8932,Pigeonn,8,0,1,2,2,2
+9844,Lama,8,0,1,2,2,2
+30538,Alpaca,8,0,1,2,2,2
+8801,Autruche,8,0,1,2,2,2
+9054,Faisan,8,0,1,2,2,2
+8496,Aligateur,8,0,0,2,2,2
+9852,Elk,8,0,1,2,2,2
+176946,Python,8,0,0,2,2,2
+9321,kangooro,8,0,1,2,2,2
+496809,Iguane,8,0,0,2,2,2
+9829,Pecari,8,0,1,2,2,2
+8020,Saumon,8,0,1,2,2,2
+6706,Lobster,8,0,0,2,2,2
+891396,Psylocibe,8,2,0,2,2,2
+5076,Pénicylline,8,2,2,2,2,2
+161934,Bettrave,8,2,2,2,0,2
+142786,Norovirus,8,2,2,2,2,2
+1637,Lysteria,8,2,2,2,2,2
+6628,Calamar,8,0,0,2,2,2
+1051064,Calamar d’une autre famille,8,0,0,2,2,2
+27696,Sardines,8,0,1,2,2,2
+4615,ananas,8,2,2,2,1,2
+29780,mangue,8,2,2,2,1,2
+13443,café,8,2,2,2,2,2
+4442,thé,8,2,2,2,2,2
+3641,theobroma cacao,8,2,2,2,2,2
+29760,grapes,8,2,2,2,2,2
+78511,cassis,8,2,2,2,1,2
+175228,groseille,8,2,2,2,2,2
+57983,requin,8,0,0,2,2,2
+2711,orange,8,2,2,2,1,2
+37656,grapefruit,8,2,2,2,1,2
+37334,pomelo,8,2,2,2,1,2
+85571,mandarine,8,2,2,2,1,2
+135197,yuzu,8,2,2,2,1,2
+3726,radish,8,2,2,2,2,2
+36596,abricot,8,2,2,2,1,2
+17,Proteinated bacteria (produit Pruteen),8,2,2,2,2,2
+3649,Carica papaya,8,2,2,2,1,2
+35925,kaki persimone,8,2,2,2,1,2
+85884,Argan,8,2,2,2,2,2
+4146,Olives,8,2,2,2,2,2
+3655,melons,8,2,2,2,1,2
+3659,concombre,8,2,2,2,2,2
+3663,courgette,8,2,2,2,2,2
+3661,potimaron,8,2,2,2,2,2
+3662,courge,8,2,2,2,2,2
+3656,"melons (jaune, petit)",8,2,2,2,1,2
+184140,chayotte,8,2,2,2,2,2
+3668,bottle gourd,8,2,2,2,2,2
+56866,rigged gourd,8,2,2,2,2,2
+3847,soya,8,2,2,2,2,2
+4686,Asperge,8,2,2,2,2,2
+4232,Tournesol,8,2,2,2,2,2
+3885,Haricot,8,2,2,2,1,2
+3864,Lentilles,8,2,2,2,1,2
+3888,Petit pois,8,2,2,2,1,2
+3827,Pois chiche,8,2,2,2,1,2
+4547,canne à sucre,8,2,2,2,0,2
+110284,chinese water chestnut,8,2,2,2,1,2
+4236,laitue,8,2,2,2,2,2
+59895,artichauds,8,2,2,2,2,2
+185202,yucon,8,2,2,2,1,2
+98504,camomille,8,2,2,2,2,2
+72332,Absinthe,8,2,0,2,2,2
+7656,Oursin méditérranéen,8,0,0,2,2,2
+7648,Oursin marin,8,0,0,2,2,2
+1328066,Giant red sea urchin,8,0,0,2,2,2
+1555913,Witchetty grub,8,0,0,2,2,2
+2704516,Une autre chenille,8,0,0,2,2,2
+4932,levure,8,2,2,2,2,2
+31032,Fugu,8,0,2,2,2,2
+8407,grenouilles,8,0,2,2,2,2
+8049,morue,8,0,2,2,2,2
+7950,hareng,8,0,2,2,2,2
+8234,Thons,8,0,2,2,2,2
+8128,Tilapia,8,0,2,2,2,2
+66913,silure,8,0,2,2,2,2
+22663,Pomme grenade,8,2,2,2,2,2
+434,Acetobacter,8,2,2,2,2,2
+256701,Bactérie du roblochon,8,0,2,2,2,2
+47845,Bactérie du gruyère,8,0,2,2,2,2
+693851,Archée présente dans le sel,8,1,2,2,2,2
+453847,Archée présente dans la nourriture coréenne,8,1,2,2,2,2

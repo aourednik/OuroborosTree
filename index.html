@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ouroboros Wacah Chan</title>
+        <meta name="description" content="The Eaten Tree of Life">
+        <meta name="theme-color" content="#000000">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Ouroboros Wacah Chan"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://ourednik.info/OuroborosTree"/>
+        <meta property="og:image" content="https://ourednik.info/OuroborosTree/img/OuroborosTree.png"/>
+        <meta property="og:description" content="The Eaten Tree of Life"/>        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven Pro">
+        <style>
+            body {font-family: 'Maven Pro';overflow:hidden}
+            #label {position:absolute;font-weight: bold ; font-size:15px; width:100px; }
+            #label img {border-radius: 50%;}
+            #dietselector {position:absolute;font-size:11px; top:50px;left:10px;max-height: calc(100% - 30px);overflow-y: scroll;}
+            #countryselectorbutton {position:absolute;font-size:11px; top:10px;left:10px;height:30px}
+            #loadinginfo {position:absolute;top:40%;left:40%;padding:20px;background: black; color: azure; display:none; z-index:10000}
+            #title {position: absolute;right:10px;top:10px;width:200px}
+            h1 {font-size: 17px; margin-bottom: 0.2em;}
+            .subtitle {font-size:14px; font-style: italic; margin-bottom: 0.5em;}
+            .author {font-size:14px; margin-bottom: 0.5em;}
+            .sourcedocs {font-size:13px; margin-bottom: 0.3em;}
+       </style>
+    </head>
+    <body>
+        <div id="title">
+            <h1>Ouroboros Wacah Chan</h1>
+            <div class="subtitle">The Eaten Tree of Life</div>
+            <div class="author">CC BY <a href="https://ourednik.info">André Ourednik</a></div>
+            <div class="sourcedocs">
+                Sources : <br/>
+                https://www.uniprot.org/ (live requests to SPARQL endpoint)<br/>
+                https://api.inaturalist.org [images] (live requests to API)
+            </div>
+            <!-- <div class="sourcedocs"><a href="" target="_blank">Documentation</a></div> -->
+        </div>
+        <div id="label"><a></a><img width="150px" onclick="hideLabel()"></div>
+        <div id="countryselectorbutton">
+            <div>
+                <input type="button" value="Generate Diet" onclick="dietGenerate()"  style="left: 0px; top: 10px;font-family: inherit;">
+            </div>
+        </div>
+        <div id="dietselector"></div>
+        <div id="loadinginfo">
+            <div id="countriesLoaded" style="display: none;">Countries loaded.</div>
+            <div id="loadingGraph" style="display: none;">Loading graph data from uniprot.org...</div>
+            <div id="constructingGraph" style="display: none;">Loading list of countries...</div>
+            <div id="updatingGraph" style="display: none;">Updatig graph...</div>
+        </div>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="lib/pixi.min.js"></script>
+        <script src="lib/viewport.min.js"></script>
+        <script src="lib/papaparse.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
